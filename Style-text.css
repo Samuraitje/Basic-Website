@@ -1,0 +1,127 @@
+@media (max-width: 1080px) {
+	body {
+		background-color: black;
+	}
+}
+
+body {
+	margin: 0;
+}
+
+nav {
+	width: 200px;
+	height: 100%;
+	background-color: #e6e6e6;
+	position: fixed;			/*Fixed to the view portal, even scrolling*/
+	top: 0px;
+	overflow: auto;	
+}
+
+nav ul {;
+	list-style-type: none;
+	width: 200px;
+	margin: 0;
+	padding: 0;
+				/*Enable scrolling if the sidenav has too much content*/
+}
+
+nav li a {
+	display: block;
+	height: 92px;
+	vertical-align: middle;
+	line-height: 92px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Helvetica, serif;
+	font-size: 20px;
+	color: #000;
+}
+
+nav li a.active {
+	background-color: #000066;
+    color: white;
+}
+
+nav li a:hover {
+	background-color: #333333;
+	color: white;
+}
+.content {
+	margin-left: 200px;
+	padding: 15px;
+	padding-top: 15px;
+}
+
+header {
+	font-family: Arial, Helvetica, serif;
+	width: 100%;
+	max-width: 1270px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	background-color: #000066;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+#edoHead {
+	font-family: Arial, Helvetica, serif;
+	width: 100%;
+	max-width: 1270px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	background-color: black;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+#codingImg {
+	display: block;
+	margin: 0 auto;
+}
+
+.section {
+	height: 405px;
+	margin: 10px;
+	border-bottom: solid black 2px;	 
+}
+
+#firstSec {
+	height: 405px;
+	margin: 10px;
+	margin-top: 20px;
+	border-bottom: solid black 2px;	
+	border-top: solid black 2px; 	
+}
+
+.block {
+	float: left;
+	width: 28.9%;
+	margin: 1%;
+	padding: 1%;
+	height: 86%;
+	font-family: Arial, Helvetica, serif;
+}
+.gallery {
+	width: 95%;
+	padding: 30px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gallery img{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+form {
+	font-family: Arial, Helvetica, serif;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+
+#Enter {
+	margin-left: 65px;
+}

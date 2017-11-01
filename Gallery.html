@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BW-Gallery</title>
+	<link rel="stylesheet" type="text/css" href="style-text.css">
+</head>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="Homepage.html">Homepage</a></li>
+			<li><a class="active" href="Gallery.html">Gallery</a></li>
+			<li><a href="Aboutme.html">About me</a></li>
+		</ul>
+		<form>
+			Email<br>
+			<input id="Email" type="text" value="">
+			<br>
+			<br> 
+			Username<br> 
+			<input id="Username" type="text" value="">
+			<br>
+			<br>
+			Password<br>
+			<input id="Password" type="text" value="">
+		</form>
+		<br>
+		<button id="Enter">Enter</button>	
+	</nav>
+	<div class="content">
+		<header id="edoHead">
+		Edo Ballerz Gallery
+		</header>
+		<div class="gallery">
+			<script>
+			$(document).ready(function() {
+				$('img').click(function(){
+					$(this).fadeOut(4000);
+				})
+			})
+			</script>
+			<img src="Images/brodie.jpg" width="350" height="400">
+			<img src="Images/gateway.jpg" width="350" height="400">
+			<img src="Images/greek.jpg" width="350" height="400">
+			<img src="Images/mamba.jpg" width="350" height="400">
+			<img src="Images/offseason.jpg" width="350" height="400">
+			<img src="Images/shaq.jpg" width="350" height="400">
+			<img src="Images/splashbrothers.jpg" width="350" height="400">
+			<img src="Images/The ghost.jpg" width="350" height="400">
+			<img src="Images/wolfpack.jpg" width="350" height="400">
+		</div>
+	</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
